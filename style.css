@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.page-action-cont{
+    height: 3rem;
+    background-color:#006266;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 1rem;
+}
+.page-action{
+    margin: 0.5rem;
+    color: #ffffff;
+}
+.cellprops-action-cont{
+    height: 3rem;
+    background-color: #dff9fb;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+.cellprops-action-cont > * {
+    display: inline-block;
+    margin: 0.5rem;
+    margin-right: 1rem;
+} 
+.cellprops-action-cont > select {
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+.font-family-prop{
+    padding: 0.2rem;  
+    cursor: pointer;
+}
+.font-size-prop{
+    padding: 0.2rem;
+    cursor: pointer;
+}
+.formula-action-cont{
+    height: 3rem;
+    background-color: rgb(255, 127, 229);
+}
+
+.sheet-action-cont{
+    height: 3rem;
+    background-color: rgb(234, 169, 88);
+}
+.sheets-folder-cont{
+
+}
+
+.grid-cont{
+    height: calc(100vh - 3rem - 3rem - 3rem - 3rem);
+    background-color: rgb(208, 237, 246);
+}
