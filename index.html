@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+    
     <div class="page-action-cont">
         <div class="page-action">File</div>
         <div class="page-action">Home</div>
@@ -61,13 +61,32 @@
         </span>
     </div>
 
-    <div class="formula-action-cont"></div>
-    <div class="grid-cont"></div>
+    <div class="formula-action-cont">
+        <input type="text" readonly class="address-bar">
+        <img class="formula-icon" width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/formula-fx.png"
+            alt="formula-fx" />
+        <input type="text" class="formula-bar">
+    </div>
+
+    <div class="grid-cont">
+        <div class="top-left-dummy-box"></div>
+        <div class="address-col-cont"></div>
+        <div class="cells-cont">
+            <div class="address-row-cont"></div>
+        </div>
+    </div>
+
     <div class="sheet-action-cont">
-        <span class="material-icons">
-            post_add
-        </span>
-        <div class="sheets-folder-cont"></div>
+        <div class="sheet-add-icon">
+            <span class="material-icons">
+                post_add
+            </span>
+        </div>
+        <div class="sheets-folder-cont">
+            <div class="sheet-folder">
+                sheet1
+            </div>
+        </div>
     </div>
 
     <script src="./script.js"></script>
